@@ -1,0 +1,38 @@
+body {
+  background-color: #444;
+
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+
+  /* CONTAINER*/
+  display: flex;
+  justify-content: center;
+
+  /*Backround Image*/
+  background-image: url(https://i.imgur.com/lHjYzzm.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+
+  background-origin: border-box;
+}
+
+.title {
+  text-shadow: cyan 1px 1px;
+  text-align: center;
+}
+
+.subtitle {
+  font-style: italic;
+  text-align: center;
+}
+
+.subtitle p,
+h3 {
+  text-shadow: rgb(173, 0, 241) 1px 1px 1px;
+}
+
+a {
+  color: black;
+}

@@ -1,0 +1,55 @@
+/* SKILLS  CARD STYLE*/
+.Card {
+  background-color: whitesmoke;
+  box-shadow: rgb(71, 2, 233) 2px 2px 1px 1px;
+
+  font-style: italic;
+  text-align: center;
+
+  color: #111111;
+
+  min-height: 200px;
+  min-width: 300px;
+  max-width: 375px;
+  margin-left: 40px;
+}
+.Card li {
+  list-style: none;
+  padding: 5xp;
+  margin-right: 20px;
+  border-bottom: 2px solid rgb(0, 255, 234);
+  text-align: left;
+  font-size: 15px;
+}
+
+.Card h4 {
+  font-size: 30px;
+  margin-bottom: -10px;
+
+  border-bottom: 2px solid grey;
+}
+.Card h4:hover {
+  background-color: gray;
+  color: cyan;
+  transition: 0.5s;
+}
+
+@media (max-width: 660px) {
+  .Card {
+    min-width: 50%;
+    margin-right: 40px;
+  }
+}
+
+@media (max-width: 400px) {
+  .Card {
+    min-width: 50%;
+    margin-right: 30px;
+  }
+}
+
+/* CONTEUDO */
+
+.Conteudo {
+  margin-left: -30px;
+}
