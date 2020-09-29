@@ -13,9 +13,12 @@ body {
   background-image: url(https://i.imgur.com/lHjYzzm.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: top;
 
-  background-origin: border-box;
+  max-height: 760px;
+
+  margin: 0;
+
+
 }
 
 .title {

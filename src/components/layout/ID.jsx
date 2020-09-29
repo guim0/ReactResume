@@ -10,7 +10,7 @@ export default()=>
                 <ul>
                     <li>guilherme.moraes2407@gmail.com</li>
                     <li><a href="https://github.com/guim0">Visit my Github</a> </li>
-                    <li><a href="resume.pdf" download>Resume in PDF</a></li>
+                    <li><a href="assets/resumeprof.pdf" download>Resume in PDF</a></li>
                 </ul>
             </div>
         </div>  
